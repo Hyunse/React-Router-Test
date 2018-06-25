@@ -13,6 +13,7 @@ const NavLinkMenu = () => {
         <li><NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink></li>
         <li><NavLink exact to="/about" activeStyle={activeStyle}>About</NavLink></li>
         <li><NavLink to="/about/kim" activeStyle={activeStyle}>About Kim</NavLink></li>
+        <li><NavLink to="/posts" activeStyle={activeStyle}>Post</NavLink></li>
       </ul>
   </div>
   );

@@ -7,3 +7,5 @@ const Post = ({ match }) => {
     </div>
   );
 };
+
+export default Post;
